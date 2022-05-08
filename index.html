@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Български традиции</title>
+	<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Philosopher&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pangolin&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/style.css">
+	<script src="./assets/js/app.js"></script>
+</head>
+<body>
+    <section>
+        <header>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="logo">
+                            <img src="./assets/img/logo.png" alt="logo">
+                            <p>Български традиции</p>
+                        </div>
+                        <div class="navbar">
+                            <nav>
+                                <ul>
+                                    <li class="nav-item">
+                                        <a href="#slider1">Обичаи</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="#seasonalFestivals">Празници</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="#workshops">Събития</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="#traditionalClothes">Носии</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="#" class="dropdown">Контакти</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>                    
+                </div>
+                
+            </div>
+            <div class="cont dropdownMenu">
+                <ul>
+                    <li class="dropdownItem">
+                        <a href="https://www.facebook.com/" target="_blank">Facebook</a>
+                    </li>
+                    <li class="dropdownItem">
+                        <a href="#" target="_blank">Twitter</a>
+                    </li>
+                    <li class="dropdownItem">
+                        <a href="#contacts">Пишете ни</a>
+                    </li>
+                </ul>
+            </div>
+        </header>
+    </section>
+
+    <section class="slider" id="slider1">
+        <div class="slider-images">
+            <img class="currentBanner" src="./assets/img/lazarki.jfif" alt="Лазаруване">
+            <img src="./assets/img/nestinarstvo.jpg" alt="Нестинарство">
+            <img src="./assets/img/proshka.jpg" alt="Прошка">
+            <img src="./assets/img/kukeri.jpg" alt="Кукери и Бабугери">
+        </div>
+        <div class="slider-content">
+            <h1 id="bannerHeading">Лазаруване</h1>
+            <p id="bannerDescription">На Лазаровден се откъсват зелени върбови клонки, които ще красят вратите на следващия ден - Цветница. Според вярванията тогава се „пускат умрелите от гробовете“. За да засвидетелстват почитта си към тях, устройва се Лазарската задушница.</p>
+            <hr>
+            <button id="prev" type="button">Предишен</button>
+            <button id="next" type="button">Следващ</button>
+        </div>
+    </section>
+
+    <section class="info" id="seasonalFestivals">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h3>ПРАЗНИЧЕН КАЛЕНДАР</h3>
+                    <ul id="seasons">
+                        <li class="caption springCaption" season="spring">Пролет</li>
+                        <li class="caption summerCaption" season="summer">Лято</li>
+                        <li class="caption autumnCaption" season="autumn">Есен</li>
+                        <li class="caption winterCaption" season="winter">Зима</li>
+                        <li class="caption allCaption" season="all">Всички</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="fests">
+            <div class="visibleFest fest spring"><img src="./assets/img/baba_marta.jpg" alt="Баба Марта"></div>
+            <div class="visibleFest fest autumn"><img src="./assets/img/SvPetka.jpg" alt="Света Петка"></div>
+            <div class="visibleFest fest spring"><img src="./assets/img/gergiovden.jpg" alt="Гергьовден"></div>
+            <div class="visibleFest fest winter"><img src="./assets/img/nikulden.jpg" alt="Никулден"></div>
+            <div class="visibleFest fest winter"><img src="./assets/img/koleda.jpg" alt="Коледа"></div>
+            <div class="visibleFest fest summer"><img src="./assets/img/preobrajenie.jpg" alt="Преображение"></div>
+            <div class="visibleFest fest spring"><img src="./assets/img/velikden.jpg" alt="Великден"></div>
+            <div class="visibleFest fest spring"><img src="./assets/img/todorovden.jpeg" alt="Тодоровден"></div>
+            <div class="visibleFest fest winter"><img src="./assets/img/bogoqvlenie.jpg" alt="Богоявление"></div>
+            <div class="visibleFest fest winter"><img src="./assets/img/newyear.jpg" alt="Нова година"></div>
+            <div class="visibleFest fest spring"><img src="./assets/img/lazaroven.jpeg" alt="Лазаровден"></div>
+            <div class="visibleFest fest autumn"><img src="./assets/img/dimitr.jpg" alt="Димитровден"></div>
+            <div class="visibleFest fest spring"><img src="./assets/img/cvetnica.jpg" alt="Цветница"></div>
+            <div class="visibleFest fest autumn"><img src="./assets/img/arahangelovden.jpg" alt="Арахангеловден"></div>
+            <div class="visibleFest fest autumn"><img src="./assets/img/mishinden.jpg" alt="Мишинден"></div>
+            <div class="visibleFest fest spring"><img src="./assets/img/blagov.jpg" alt="Благовещение"></div>
+            <div class="visibleFest fest winter"><img src="./assets/img/ivanovden.jpg" alt="Ивановден"></div>
+            <div class="visibleFest fest summer"><img src="./assets/img/bogorodica.jpg" alt="Голяма и Малка Богородица"></div>
+            <div class="visibleFest fest spring"><img src="./assets/img/sirnizagovezni.jpeg" alt="Сирни Заговезни"></div>
+            <div class="visibleFest fest summer"><img src="./assets/img/Eniovden.jpg" alt="Еньовден"></div>
+            <div class="visibleFest fest summer"><img src="./assets/img/sv_konst_i_el.jpg" alt="Св. Константин и Елена(друга традиция на този ден е да се провеждат матурите по математика)"></div>
+        </div>
+    </section>
+
+    <section class="info" id="traditionalClothes">
+        <div class="trClCaptions">
+            <h3>Български народни носии</h3>
+            <ul id="typesOfClothes">
+                <li class="typeCl selected" region="dobruja">Добруджанска</li>
+                <li class="typeCl" region="rodopi">Родопска</li>
+                <li class="typeCl" region="pirin">Пиринска</li>
+                <li class="typeCl" region="sever">Северняшка</li>
+                <li class="typeCl" region="trNizina">Тракийска</li>
+                <li class="typeCl" region="stranja">Странджанска</li>
+                <li class="typeCl" region="sofiisko">Шопска</li>
+            </ul>
+        </div>
+        <div class="clothesContent active" id="dobruja">
+            <div class="image">
+                <img src="./assets/img/dobrujanska_nosiq.png">
+            </div>
+            <div class="clothDescription">
+                <h4>Добруджанска носия</h4>
+                <div class="description">
+                    <p>
+                        Впечатляващи елементи на добруджанските носии са техните синчани и сребърни накити. Цвеовите комбинации са специфични в тази област. Такъв е и обичаят булките да носят червено було и две ризи, от които едната - незавършена. Вярва се че те ги предпазват от злото.
+                        Мъжките и женските носии си приличат - състоят се от червен сукман с бродерия или пола с елече, дълга бяла памучна риза, най-често черна вълна престилка с бродерия, жълта кърпа или шапка, т.нар. качуло, наподобяващо гребен на петел.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="clothesContent" id="rodopi">
+            <div class="image">
+                <img src="./assets/img/rodopska_nosiq.jpg">
+            </div>
+            <div class="clothDescription">
+                <h4>Родопска носия</h4>
+                <div class="description">
+                    <p>
+                        Носията на родопчанката е от сукманения тип. Характерно за него е, че върху ризата от бяло платно се носи дълга дреха от черен или тъмно син шаяк, наречена "вълник". Поради хладния планински климат и силно развито овцевъдство в района, дрехите са изработени предимно от вълнена тъкан. Върху вълника се облича елек с ръкави - "мерсжан". Поясът на кръста е пъстър. На главата си родопчанките носят винено-червена кърпа, а краката им са обути с шарени вълнени чорапи и шаячни терлици.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="clothesContent" id="pirin">
+            <div class="image">
+                <img src="./assets/img/pirinska.jpg">
+            </div>
+            <div class="clothDescription">
+                <h4>Пиринска носия</h4>
+                <div class="description">
+                    <p>
+                        Одеждите на пиринчанките се състоят от риза, горна дреха с къси ръкави - "клашник", червен или ивичен вълнен пояс, избродирана дълга престилка, кърпа, вързана под косите, шарени чорапи и изобилие от накити - ушници, пафти, пендари, коланчета. В носията на мъжете преобладават бялото и червеното. Обути са в "беневреци" или "чешири" - гащи с плъно прилепнали крачоли, позволяващи по-висока игра и гъвкави подскоци в танците. Носят стегнат червен пояс и черен калпак.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="clothesContent" id="sever">
+            <div class="image">
+                <img src="./assets/img/severnqshka.png">
+            </div>
+            <div class="clothDescription">
+                <h4>Северняшка носия</h4>
+                <div class="description">
+                    <p>
+                        Костюмът на жените от този край се състои от предна и задна бродирани престилки. Задната северняците наричат "бръчник" или "задна завеса", изработена е от памук, кадифе, златни ширити и дантела. Предната се нарича "фута". По поречието на р.Вит се носят две предни престилки. Ризите са памучни с бродирани дантели по ръкавите, полите - от червен вълнен плат. Зимата тази носия се заменя със сукманена. Тесните гащи на мъжете се наричат "беневреци", а богато окрасената бяла риза - "джамадан".
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="clothesContent" id="trNizina">
+            <div class="image">
+                <img src="./assets/img/trakiiska.png">
+            </div>
+            <div class="clothDescription">
+                <h4>Тракийска носия</h4>
+                <div class="description">
+                    <p>
+                        Върху ризите в тази област се е носил сукман от червен вълнен плат с орнаменти от черно бродирано кадифе и гайтан. Престилките са от черен вълнен плат с бяла дантела, а в пояса е втъкана шарена кърпа или колан с пафти. Украсата на главата е богата - венци, китки, монети, мъниста и пера, някъде шапчици, покрити с кърпа. Мъжката носия е от чернодрешен тип и се състои от черни потури с гайтани, вълнен елек с черни орнаменти и изпъстрена бяла памучна риза. Орнаментите са предимно червени, с растителни мотиви.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="clothesContent" id="stranja">
+            <div class="image">
+                <img src="./assets/img/stranzhanska_nosiq.jpg">
+            </div>
+            <div class="clothDescription">
+                <h4>Странджанска носия</h4>
+                <div class="description">
+                    <p>
+                        Женската носия е сукманена и съчетава цветовете на трибагреника. Сукманът е от вълнена тъмноцветн тъкан със затворена туникообразна форма. Украсен е богато с разноцветни върви, гайтани и дантели. Предната престилка е наречена "фуста" и е в контраст с тъмния плат на сукмана. Облеклото на мъжете е чернодрешно. Върху бялата риза се носи елек или аба от черен вълнен шаяк. Абата е къса до пояса вълнена дреха с ниска яка и дълги тесни ръкави. Потурите са с широка кройка и се наричат "шалвари". 
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="clothesContent" id="sofiisko">
+            <div class="image">
+                <img src="./assets/img/shopska.png">
+            </div>
+            <div class="clothDescription">
+                <h4>Шопска носия</h4>
+                <div class="description">
+                    <p>
+                        Жените в шопските райони са носили сукманен тип носия, с изключение на Кюстендилския край, където носията е саичена. Ризата е от бял памъчен плат с разширяващи се надолу ръкави. Сукманът - черен или син вълнен с бели или червени шевици под формата на плитка. Носията на мъжете е белодрешна. Върху ризата се е носил син или черен елек с гайтан. Панталонът е бял, тесен, от груб вълнен плат - шаяк. Препасвал се е черен или червен вълнен пояс подобно на планинския, обграждащ Софийското поле.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="info" id="tradsForKids">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2>Децата и традициите</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-1 partButton">
+                    <img id="prv" class="reverse" src="./assets/img/next.png">
+                </div>
+                <div class="col-lg-10 partImages">
+                    <img class="current first" src="./assets/img/deca_horo.jpg">
+                    <img src="./assets/img/deca_martenichki.jpg">
+                    <img src="./assets/img/deca_qica.jpg">
+                    <img src="./assets/img/dete_karin_dom.jpg">
+                    <img src="./assets/img/prikazka.png">
+                </div>
+                <div class="col-lg-1 partButton">
+                    <img id="nxt" src="./assets/img/next.png">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="tradFood">
+        <div class="container">
+            <div class="row">
+                <hr><h2 id="bgkitchen">Българска кухня</h2><hr>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="row">
+                        <p id="selectedFoodName">Баница</p>
+                        <div class="foodsList">
+                            <p class="fdListItem">Баница</p>
+                            <p class="fdListItem">Питка</p>
+                            <p class="fdListItem">Козунак</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="foodImages">
+                            <img class="thisFood" src="./assets/img/banica.jpg">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 foodDescription">
+                    <div class="fdDesc thisFood">
+                        <p class="fdSymbol">Българският народ поставя баницата в центъра на трапезата си по празници и обреди. Например на Нова година, тя задължително трябва да е кръгла и с късмети, което е символ на равнопоставеност пред Бог.</p>
+                        <p class="recipe">Баницата е основно редена и вита.Традиционната българска баница се приготвя с плънка от бяло саламурено сирене. Съществуват още много разновидности на баницата. Първата стъпка от рецептата за баница със сирене и готови кори е подготовката на плънката. Разбъркват се яйца, кисело мляко, извара или сиренето, ½ чаена чаша олио и сода за хляб. В намазнена тавичка се слагат 1-2 листа от корите, върху които - 1 черпак от сместа. Отгоре отново се слагат лист-два от корите и отново от сместа, а накрая олио. Процедурата се повтаря в тази последователност докато корите и сместа свършат. Последният лист внимателно се нарязва с остър нож на парчета, за да можете след изпичане по-лесно да се разреже баницата. Баницата се пече в предварително загрята на 200 градуса фурна за около 30 минути, докато придобие златист цвят.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="workshops">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <hr id="workshopsBorder">
+                    <h2 id="workshopsHeading">Уъркшопове</h2>
+                </div>
+            </div>
+            <div class="row workshop">
+                <div class="col-lg-5">
+                    <img src="./assets/img/egg_painting.jpg" class="workshopImg right">
+                </div>
+                <div class="col-lg-7">
+                    <h4 class="workshopName left">Изкуство с боя и яйца</h4>
+                    <p class="workshopDesc">
+                        Прекарайте си страхотно със своите деца или приятели на ХХ.ХХ (неделя), когато ще се съберем и ще боядисаме купища великденски яйца... но не така, както сте свикнали да го правите вкъщи
+                    </p>
+                </div>
+            </div>
+            <div class="row workshop">
+                <div class="col-lg-7">
+                    <h4 class="workshopName right">Печене на козунак с шеф Иван И.</h4>
+                    <p class="workshopDesc">
+                        На ХХ.ХХ (събота) от ХХ до ХХ часа прекарайте няколко незабравими часа готвейки с шеф Иван И., който ще Ви покаже своите тайни за приготвянето на истински вкусен и автентичен козунак
+                    </p>
+                </div>
+                <div class="col-lg-5">
+                    <img src="./assets/img/cooking.jpg" class="workshopImg">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacts">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h3>Свържете се с нас</h3>
+                    <form action="" method="POST">
+                        <label for="username">Потребителско име</label>
+                        <input type="text" id="username" placeholder="ivan">
+                        <label for="mail">Имейл</label>
+                        <input type="email" id="mail" placeholder="abc@abc.com">
+                        <label for="message">Съобщение</label>
+                        <textarea id="message" rows="3"></textarea>
+                        <button id="sendBtn" type="submit">Изпрати</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>By Anelia Vodenicharova</p>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

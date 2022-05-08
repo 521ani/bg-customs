@@ -1,0 +1,408 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Arial';
+    font-size: 20px;
+    color: rgb(58, 58, 58);
+}
+h1, h2, h3, h4, h5 {
+    text-align: center;
+}
+a {
+    color: rgb(58, 58, 58);
+}
+a:hover {
+    text-decoration: none;
+    color: rgb(58, 58, 58);
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+/*header*/
+.logo {
+    float: left;
+    width: 35%;
+}
+.logo img {
+    height: 100px;
+    width: auto;
+}
+.logo p {
+    display: inline;
+}
+.navbar {
+    display: inline-block;
+    padding: 0;
+    width: 64%;
+    height: 100%;
+}
+nav {
+    float: right;
+    margin-top: 20px;
+}
+nav ul li,
+.dropdownMenu ul li {
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+.dropdownMenu ul li a:hover {
+        background: rgb(123 123 123 / 18%);
+        padding: 5px;
+        border-radius: 5px;
+        transition: 0.5s;
+}
+.dropdownMenu {
+    display: none;
+}
+.dropdownMenu ul {
+    margin: 0 auto;
+    width: 23%;
+    margin-bottom: 20px;
+    border-top: 1px solid green;
+}
+
+/*slider 1*/
+section#slider1 {
+    height: 400px;
+    background-color: rgb(0, 0, 0);
+}
+.slider-images {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 400px;
+    top: 0;
+    left: 0;
+}
+.slider-images img {
+    width: 110%;
+    height: auto;
+    display: none;
+}
+.slider-content {
+    text-align: center;
+    height: 330px;
+    position: relative;
+    bottom: 400px;
+    margin: 35px 140px;
+    background: rgb(70 70 70 / 61%);
+}
+.slider-content h1 {
+    padding-top: 30px;
+    font-family: 'Pacifico', cursive;
+    color: rgb(231, 231, 231);
+    text-shadow: #4bb338 0px 0px 10px;
+}
+.slider-content p {
+    padding: 10px 15px 0 15px;
+    font-family: 'Comfortaa', cursive;
+    height: 110px;
+    color: #dadada;
+}
+.slider-content button {
+    border: none;
+    background: #136913;
+    color: #ffe5e5;
+    padding: 5px 10px;
+    margin: 0 10px;
+}
+.slider-content hr {
+    display: block;
+    border: 1px solid green;
+    color: green;
+    width: 50%;
+    margin-top: 30px;
+}
+img.currentBanner {
+    display: inline-block;
+}
+/*SEASONAL FESTIVALS*/
+ul#seasons {
+    width:413px;
+    margin: 22px auto;
+    margin-top: 10px;
+}
+#seasonalFestivals h3 {
+    font-family: 'Comfortaa', cursive;
+    margin-top: 22px;
+}
+ul#seasons li {
+    display: inline-block;
+    padding: 5px 12px;
+    font-family: 'Pacifico', cursive;
+    font-weight: bold;
+}
+.caption:hover {
+    cursor: pointer;
+}
+.springCaption:hover {
+    text-shadow: #ffc5e2 0px 0px 10px;
+}
+.summerCaption:hover {
+    text-shadow: #59ff3b 0px 0px 10px;
+}
+.autumnCaption:hover {
+    text-shadow: #ffba4c 0px 0px 10px;
+}
+.winterCaption:hover {
+    text-shadow: #47facd 0px 0px 10px;
+}
+.allCaption:hover {
+    text-shadow: #a3a3a3 0px 0px 10px;
+}
+.fests {
+    width: 1293.5px;
+    margin: 0 auto;
+}
+.visibleFest {
+    display: inline-block;
+}
+.fest {
+    height: 150px;
+    width: 180px;
+    background-color: rgb(146, 146, 146);
+    margin-top: 5px;
+    overflow: hidden;
+}
+.fest img {
+    width: 115%;
+}
+
+/*TRADIIONAL CLOTHING*/
+#typesOfClothes {
+    margin: 0 auto;
+    width: 1008px;
+}
+.trClCaptions h3 {
+    text-align: center;
+    margin-top: 20px;
+}
+.typeCl {
+    display: inline-block;
+    margin: 12.5px;
+    padding: 5px;
+}
+.typeCl:hover {
+    position: relative;
+    top: 5px;
+    cursor: pointer;
+}
+.clothesContent {
+    width: 100%;
+    padding: 0 40px;
+    height: 400px;
+    display: none;
+}
+.selected {
+    box-shadow: /*#8d6524a9*/ rgb(98 195 57 / 39%) 6px -6px 2px 1px;
+    border: 1px solid  #868886;
+    border-radius: 7.5px;
+}
+.active {
+    display: block;
+}
+.image {
+    text-align: center;
+    padding-left: 80px;
+    display: inline-block;
+    width: 39%;
+    height: 100%;
+}
+.image img {
+    height: 100%;
+}
+.clothDescription {
+    float: right;
+    width: 60%;
+    height: 100%;
+    text-align: center;
+}
+.clothDescription h4 {
+    margin-top: 40px;
+    font-family: 'Philosopher', sans-serif;
+    font-weight: 700;
+}
+.description {
+    background-color: antiquewhite;
+    border-radius: 10px;
+    border: solid 2px #8d6524;
+    /*box-shadow: 7px 0px 15px #8d6524, -7px 0px 15px #8d6524;*/
+    margin: 30px 50px;
+    padding: 15px 10px;
+}
+.description p {
+    margin: 0;
+    font-family: 'Philosopher', sans-serif;
+}
+
+/*Slider 2*/
+#tradsForKids {
+    width: 100%;
+}
+#tradsForKids h2 {
+    font-family: 'Comfortaa', cursive;
+    color: #35a322;
+    margin: 30px 0;
+}
+.partImages {
+    overflow: hidden;
+    height: 490px;
+    box-shadow: 10px 0 10px lightgreen, -10px 0px 10px lightgreen, 0px 10px 10px lightgrey, 0px -10px 10px lightgrey;
+}
+.partImages img {
+    display: none;
+    width: 100%;
+    height: auto;
+}
+.partImages img.current {
+    display: block;
+}
+.partButton img {
+    height: 50px;
+    margin: 230px auto;
+}
+.partButton img:hover {
+    cursor: pointer;
+}
+img.reverse {
+    transform: rotate(180deg);
+}
+/*Tradiional Food*/
+#tradFood {
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+h2#bgkitchen {
+    font-family: 'Pangolin', cursive;
+}
+hr {
+    border: solid 1px #ffc05b;
+    text-align: center;
+    width: 30%;
+    display: inline;
+}
+#selectedFoodName {
+    padding: 10px 60px;
+    border: double #8d6524;
+    border-radius: 10px;
+    background: antiquewhite;
+    margin: 0 auto;
+}
+.foodsList {
+    position: absolute;
+    display: block;
+    top: 60px;
+    left: 185px;
+    width: 200px;
+    text-align: center;
+    display: none;
+}
+.fdListItem {
+    border-top: solid 1px rgb(195, 138, 33);
+    border-bottom: solid 1px rgb(195, 138, 33);
+    border-radius: 10px;
+    background: radial-gradient(circle, rgba(255,255,255,1) 51%, antiquewhite 100%);
+}
+.fdListItem:hover {
+    cursor: pointer;
+}
+.foodImages {
+    width: 100%;
+    height: 390px;
+    overflow: hidden;
+    margin: 20px;
+    border-radius: 15px;
+}
+.thisFood {
+    width: 100%;
+}
+.fdSymbol {
+    text-align: center;
+    margin-top: 10px;
+}
+.recipe {
+    font-size: 17px;
+    font-family: 'Pangolin';
+    text-align: justify;
+}
+/*Workshops*/
+#workshops {
+    font-family: 'Philosopher', sans-serif;
+}
+#workshopsBorder {
+    display: block;
+    width: 70%;
+    margin: 30px auto;
+}
+.workshop {
+    margin: 20px 0;
+}
+.workshopName.left {
+    text-align: left;
+}
+.workshopName.right {
+    text-align: right;
+}
+.workshopDesc {
+    text-align: justify;
+}
+.workshopImg.right {
+    float: right;
+}
+.workshopImg {
+    width: 300px;
+    height: auto;
+    border-radius: 12px;
+}
+/*Footer*/
+#footer {
+    background-color: #9fff7e;
+    height: 80px;
+    text-align: center;
+}
+#footer p {
+    margin-top: 30px;
+    font-family: 'Pacifico';
+    font-size: 16px;
+}
+/*Form*/
+#contacts {
+    background-color: #faffe4;
+    padding: 20px 0;
+    margin-top: 20px;
+}
+#contacts, h3 {
+    font-family: 'Pacifico', cursive;
+}
+label, button {
+    font-family:'Comfortaa';
+    font-size: 20px;
+}
+input, textarea , button {
+    border-radius: 5px;
+}
+input:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+form {
+    padding: 0 73px;
+}
+input, textarea {
+    width: 100%;
+    padding: 2px 5px;
+    margin-bottom: 5px;
+    border: solid 1px gray;
+    font-family: 'Arial';
+}
+#sendBtn {
+    border: solid 1px gray;
+    margin-top: 5px;
+    float: right;
+}
+.wrong {
+    box-shadow: 2px 0 2px rgb(228, 116, 116), -2px 0 2px rgb(228, 116, 116), 0 2px 2px rgb(228, 116, 116), 0 -2px 2px rgb(228, 116, 116);
+}
